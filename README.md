@@ -12,7 +12,7 @@
  - - *Om ni får ett felmeddelande [läs mer om hur man installerar curl här](#curl)*
   3. Starta scriptet med följande kommando:<br/>
 > ```
-> curl -O https://raw.githubusercontent.com/Pingu1337/win21installer/main/win21Install.bat && ./install && rm install.bat
+> curl -o win21install.bat https://raw.githubusercontent.com/Pingu1337/win21installer/main/Install.bat && ./win21install && rm win21install.bat
 > ```
  4. Låt scriptet köra färdigt, det kan ta **några minuter** beroende på uppkoppling.
  6. **Done!** Nu är allt installerat!
