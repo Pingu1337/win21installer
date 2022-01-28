@@ -1,1 +1,2 @@
-echo npm install jsdoc
+npm install jsdoc \n
+npm install rxjs \n
