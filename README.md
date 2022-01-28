@@ -6,7 +6,7 @@
 ## Hur man använder scriptet
 
 > 1. Öppna upp windows startmeny, skriv in "cmd" och starta "Kommandotolken"
-> 2. Skriv in kommandot ``curl -V`` ifall curl är installerat bör ni se något liknande ``curl 7.79.1 (Windows) libcurl/7.79.1 Schannel``
+> 2. Skriv in kommandot ``curl -V`` om curl är installerat ska ni se något liknande ``curl 7.79.1 (Windows) libcurl/7.79.1 Schannel``
   > > *Om ni får ett felmeddelande [läs mer om hur man installerar curl här](#curl)*
 > 3. **Starta scriptet med kommandot ``curl https://raw.githubusercontent.com/Pingu1337/win21installer/main/Install.bat``**
 > 4. Låt scriptet köra färdigt, det kan ta **några minuter** beroende på uppkoppling.
