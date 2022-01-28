@@ -1,2 +1,2 @@
-npm install jsdoc \n
-npm install rxjs \n
+npm install jsdoc
+npm install rxjs
