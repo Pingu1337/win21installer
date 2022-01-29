@@ -31,7 +31,7 @@
  1. Öppna terminalen
  2. Skriv in kommandot: 
  > ```
- > sudo curl -o win21install.sh https://raw.githubusercontent.com/Pingu1337/win21installer/Debian/install.sh && sudo chmod +x ./win21install.sh && ./win21install.sh && sudo rm win21install.sh
+ > sudo curl -o win21install.sh https://raw.githubusercontent.com/Pingu1337/win21installer/main/install.sh && sudo chmod +x ./win21install.sh && ./win21install.sh && sudo rm win21install.sh
  > ```
 3. Vänta tills det står "Installation complete!"
 4. **Done!** Nu är allt installerat!
