@@ -2,17 +2,18 @@
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install nodejs -y && sudo apt-get install npm -y
 npm install jsdoc
-code --install-extension Tobermory.es6-string-html
-code --install-extension abusaidm.html-snippets
-code --install-extension bashmish.es6-string-css
-code --install-extension pranaygp.vscode-css-peek
-code --install-extension ritwickdey.live-sass
-code --install-extension syler.sass-indented
-code --install-extension dbaeumer.jshint
-code --install-extension zjcompt.es6-string-javascript
-code --install-extension eamodio.gitlens
-code --install-extension esbenp.prettier-vscode
-code --install-extension ms-dotnettools.csharp
-code --install-extension ritwickdey.LiveServer
-code --install-extension formulahendry.auto-rename-tag
+
+code --user-data-dir --install-extension Tobermory.es6-string-html --force 
+code --user-data-dir --install-extension abusaidm.html-snippets --force 
+code --user-data-dir --install-extension bashmish.es6-string-css --force 
+code --user-data-dir --install-extension pranaygp.vscode-css-peek --force
+code --user-data-dir --install-extension ritwickdey.live-sass --force
+code --user-data-dir --install-extension syler.sass-indented --force
+code --user-data-dir --install-extension dbaeumer.jshint --force
+code --user-data-dir --install-extension zjcompt.es6-string-javascript --force
+code --user-data-dir --install-extension eamodio.gitlens --force
+code --user-data-dir --install-extension esbenp.prettier-vscode --force
+code --user-data-dir --install-extension ms-dotnettools.csharp --force
+code --user-data-dir --install-extension ritwickdey.LiveServer --force
+code --user-data-dir --install-extension formulahendry.auto-rename-tag --force
 echo Installation complete! 
