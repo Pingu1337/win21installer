@@ -5,6 +5,7 @@
 
 ## Hur man använder scriptet
 
+### Windows
  1. Öppna upp windows startmeny, skriv in "cmd" och starta "Kommandotolken"
  2. Skriv in kommandot ``curl -V`` 
  - Om curl är installerat ska ni se något liknande: ``curl 7.79.1 (Windows) libcurl/7.79.1 Schannel``
@@ -22,9 +23,23 @@
 > 
  *Fungerar inte scriptet som det ska?* *[öppna en issue](https://github.com/Pingu1337/win21installer/issues/new)*
 
+<hr/>
+
+### Linux 
+
+#### Debian
+ 1. Öppna terminalen
+ 2. Skriv in kommandot: 
+ > ```
+ > sudo curl -o win21install.sh https://raw.githubusercontent.com/Pingu1337/win21installer/Debian/install.sh && sudo chmod +x ./win21install.sh && ./win21install.sh && sudo rm win21install.sh
+ > ```
+3. Vänta tills det står "Installation complete!"
+4. **Done!** Nu är allt installerat!
 
 # curl
 curl är idag standard i windows datorer och bör finnas installerat med win10 eller senare.
 Men om det skulle vara så att ni inte har curl installerat så är det inte särskillt svårt att installera manuellt.
 
 Den senaste versionen av curl går att hämta här: https://curl.se/download.html
+
+För debian användare: ``sudo apt-get install curl``
