@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt install nodejs -y && sudo apt install npm -y
-npm install jsdoc
+sudo npm install jsdoc
 
 code --install-extension Tobermory.es6-string-html --force 
 code --install-extension abusaidm.html-snippets --force 
