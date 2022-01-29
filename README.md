@@ -15,6 +15,10 @@
 > ```
 > curl -o win21install.bat https://raw.githubusercontent.com/Pingu1337/win21installer/main/Install.bat && ./win21install || win21install.bat && rm win21install.bat || del win21install.bat
 > ```
+ för att även installera node.js och npm skriv in följande istället:
+ > ```
+> curl -o win21installNode.bat https://raw.githubusercontent.com/Pingu1337/win21installer/main/InstallNode.bat && ./win21installNode || win21installNode.bat && rm win21installNode.bat || del win21installNode.bat
+> ```
  4. Låt scriptet köra färdigt, det kan ta **några minuter** beroende på uppkoppling.
  6. **Done!** Nu är allt installerat!
 <br/>
